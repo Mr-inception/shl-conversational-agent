@@ -1,6 +1,6 @@
-# CPU-only PyTorch (avoids ~2GB CUDA downloads on Render)
+# CPU-only PyTorch (smaller install; no CUDA on Render)
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.1+cpu
+torch==2.12.0+cpu
 
 fastapi
 uvicorn
